@@ -4,6 +4,7 @@
 [![CI Status](https://img.shields.io/github/actions/workflow/status/moby/swarmkit/ci.yml?branch=master&label=ci&logo=github&style=flat-square)](https://github.com/moby/swarmkit/actions?query=workflow%3Aci)
 [![Go Report Card](https://goreportcard.com/badge/github.com/moby/swarmkit)](https://goreportcard.com/report/github.com/moby/swarmkit)
 [![codecov](https://img.shields.io/codecov/c/github/moby/swarmkit?logo=codecov&style=flat-square)](https://codecov.io/gh/moby/swarmkit)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Falialobidm%2Fswarmkit.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Falialobidm%2Fswarmkit?ref=badge_shield)
 
 *SwarmKit* is a toolkit for orchestrating distributed systems at any scale. It includes primitives for node discovery, raft-based consensus, task scheduling and more.
 
@@ -332,3 +333,7 @@ drzndxnjz3c8iujdewzaplgr6    redis      5       redis:3.0.7    RUNNING          
 ```
 
 As you can see, every Task running on `node-1` was rebalanced to either `node-2` or `node-3` by the reconciliation loop.
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Falialobidm%2Fswarmkit.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Falialobidm%2Fswarmkit?ref=badge_large)
